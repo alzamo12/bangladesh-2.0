@@ -193,3 +193,55 @@ nav {
 .recent-news-card-2{
     flex-direction: row-reverse;
 }
+
+
+/* donate today section styles  */
+
+.donate-today-section{
+    margin-top: 80px;
+    
+}
+
+.donate-today{
+    width: 90%;
+    margin: auto;
+    display: grid;
+   justify-content: center;
+}
+
+.donate-today-description{
+    text-align: center;
+}
+
+.donate-cards{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+.donate-card{
+    padding: 40px;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border: 1px solid rgba(14, 14, 14, 0.8);
+    background-color: white;
+    border-radius: 16px;
+}
+
+.donate-card-200{
+    background-color: #C6E4D6;
+}
+
+.donate-input{
+    padding: 20px 40px;
+    width: 100%;
+    border: none;
+    margin-top: 40px;
+}
+
+.donate-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
