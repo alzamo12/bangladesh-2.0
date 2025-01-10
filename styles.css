@@ -4,9 +4,20 @@
     font-family: "Fira Sans", serif;
 }
 
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 body button:hover {
     background-color: black;
     color: white;
+    animation: fadeInOut 1.5s ease-in-out;
 }
 
 body {
@@ -160,6 +171,26 @@ nav {
     background-color: #FFC239;
 }
 
+/* yunus speech secion styles */
+.yunus-speech {
+    background-color: white;
+    padding: 30px 24px;
+    margin-top: 32px;
+    border-radius: 16px;
+    border: rgba(14, 14, 14, 0.15) solid 1px;
+}
+
+.speech-content{
+    background-image: url(./assets//quote-bg.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.speech{
+    color: rgba(14, 14, 14, 0.8);
+    padding-top: 10px;
+}
+
 /* recent-new card */
 
 .recent-news-section {
@@ -303,7 +334,7 @@ footer {
     margin-top: 80px;
 }
 
-footer h2{
+footer h2 {
     font-weight: 600;
     font-size: 32px;
     margin-top: 0;
