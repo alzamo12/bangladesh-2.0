@@ -196,7 +196,7 @@ nav {
 .recent-news-section {
     display: grid;
     gap: 32px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .recent-news-card {
