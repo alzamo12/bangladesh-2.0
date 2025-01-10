@@ -4,6 +4,11 @@
     font-family: "Fira Sans", serif;
 }
 
+body button:hover {
+    background-color: black;
+    color: white;
+}
+
 body {
     background-color: #F1F1F3;
 }
@@ -157,7 +162,7 @@ nav {
 
 /* recent-new card */
 
-.recent-news-section{
+.recent-news-section {
     display: grid;
     gap: 32px;
     margin-top: 80px;
@@ -172,7 +177,7 @@ nav {
     background-color: white;
 }
 
-.recent-news-card img{
+.recent-news-card img {
     border-radius: 16px;
 }
 
@@ -181,7 +186,7 @@ nav {
     gap: 20px;
 }
 
-.read-more-btn{
+.read-more-btn {
     background-color: #006A50;
     color: white;
     border-radius: 8px;
@@ -190,37 +195,37 @@ nav {
     margin-top: 15px;
 }
 
-.recent-news-card-2{
+.recent-news-card-2 {
     flex-direction: row-reverse;
 }
 
 
 /* donate today section styles  */
 
-.donate-today-section{
+.donate-today-section {
     margin-top: 80px;
-    
+
 }
 
-.donate-today{
+.donate-today {
     width: 90%;
     margin: auto;
     display: grid;
-   justify-content: center;
+    justify-content: center;
 }
 
-.donate-today-description{
+.donate-today-description {
     text-align: center;
 }
 
-.donate-cards{
+.donate-cards {
     display: flex;
     gap: 24px;
     margin-top: 32px;
     justify-content: center;
 }
 
-.donate-card{
+.donate-card {
     padding: 40px;
     font-size: 40px;
     color: rgba(14, 14, 14, 0.8);
@@ -229,19 +234,63 @@ nav {
     border-radius: 16px;
 }
 
-.donate-card-200{
+.donate-card:hover {
+    background-color: #F7EBCF;
+    color: black;
+}
+
+.donate-card-200 {
     background-color: #C6E4D6;
 }
 
-.donate-input{
+.donate-input {
     padding: 20px 40px;
     width: 100%;
     border: none;
     margin-top: 40px;
 }
 
-.donate-btn{
+.donate-input::placeholder {
+    text-align: center;
+}
+
+.donate-btn {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+/* subscribe section */
+.subscribe-section {
+    margin-top: 70px;
+    padding: 30px 100px;
+    background-color: #C6E4D6;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.subscribe-section input {
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    padding: 17px 40px;
+    outline: none;
+    width: 100%;
+    flex: 1;
+    border: none;
+}
+
+.input-and-btn button {
+    border-radius: 0 5px 5px 0;
+    padding: 17px 20px;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.input-and-btn {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 10px;
 }
