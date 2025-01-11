@@ -25,11 +25,11 @@ body {
 }
 
 header {
-    margin: 0px 320px;
+    margin: 0px 150px;
 }
 
 main {
-    margin: 0px 320px;
+    margin: 0px 150px;
 }
 
 .description {
@@ -142,6 +142,7 @@ nav {
     padding: 32px;
     gap: 24px;
     border-radius: 16px;
+    width: 33.3%;
 }
 
 /* all future cards */
@@ -275,7 +276,7 @@ nav {
 }
 
 .donate-input {
-    padding: 20px 40px;
+    padding: 20px 0px;
     width: 100%;
     border: none;
     margin-top: 40px;
